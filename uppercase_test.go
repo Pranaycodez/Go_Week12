@@ -13,7 +13,7 @@ func TestToUpperCase(t *testing.T) {
 		{"pranay", "PRANAY"}, // Corrected expected result to match uppercase conversion.
 		{"GoLang", "GOLANG"}, // Mixed case to uppercase.
 		{"abc", "ABC"},       // Lowercase to uppercase.
-		{"123", "123"},       // Numeric strings should remain unchanged.
+		{"123", "123"},       // Numeric strings shall remain unchanged.
 	}
 	// Iterating over each test case.
 	for _, test := range tests {
